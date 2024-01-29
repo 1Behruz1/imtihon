@@ -1,0 +1,30 @@
+.site-header {
+    padding: 32px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    background: var(--Neutral-01, #F7FBFA);
+}
+
+.site_header-list {
+    @include flex-starter;
+    gap: 60px;
+}
+
+
+.site_header-inner {
+    @include flex-starter;
+}
+
+.site-header_logo-link {
+    text-decoration: none;
+}
+
+.site_header-button {
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
